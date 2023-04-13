@@ -1,0 +1,15 @@
+int x = 5;
+float y = 3.5;
+int z;
+
+if (x > 10) {
+    y = x + 5;
+} else {
+    y = x - 2;
+}
+
+while (x < 100) {
+    x = x + 1;
+}
+
+z = x * y;
